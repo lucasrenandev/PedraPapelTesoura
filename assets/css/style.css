@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #48c9c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.containerGame {
+    width: 550px;
+    padding: 20px 15px;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.containerGame .display {
+    width: 100%;
+}
+
+.containerGame .display h2 {
+    margin-bottom: 15px;
+}
+
+.containerGame .display h2 span {
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.containerGame h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.containerGame .buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.containerGame .buttons .Pedra {
+    background-color: #008000;
+}
+
+.containerGame .buttons .Papel {
+    background-color: #4b4b4b;
+}
+
+.containerGame .buttons .Tesoura {
+    background-color: orangered;
+}
+
+.containerGame h5 {
+    margin: 15px 0;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.containerGame .score {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerGame .score .score-user {
+    color: green;
+}
+
+.containerGame .score .score-computer {
+    color: red;
+}
+
+.containerGame .score .score-draw {
+    color: orangered;
+}
+
+.containerGame .score h6 {
+    font-size: 0.9em;
+    font-size: 400;
+}

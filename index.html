@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra papel e tesoura</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <h1>Pedra, papel e tesoura</h1>
+
+    <div class="containerGame" id="containerGame">
+
+        <div class="display" id="display">
+            <h2>Computador jogou: <span id="computer-choice"></span></h2>
+            <h2>Usuário jogou: <span id="user-choice"></span></h2>
+            <h2>Resultado: <span id="result"></span></h2>
+        </div><!--end display-->
+
+        <h3>Faça sua escolha:</h3>
+
+        <div class="buttons" id="buttons">
+            <button class="Pedra" id="Pedra">Pedra</button>
+            <button class="Papel" id="Papel">Papel</button>
+            <button class="Tesoura" id="Tesoura">Tesoura</button>
+        </div><!--end buttons-->
+
+        <h5>Pontuação:</h5>
+
+        <div class="score" id="score">
+            <h6>Usuário: <span class="score-user" id="score-user"></span></h6>
+            <h6>Empate: <span class="score-draw" id="score-draw"></span></h6>
+            <h6>Computador: <span class="score-computer" id="score-computer"></span></h6>
+        </div><!--end score-->
+
+    </div><!--end container game-->
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
