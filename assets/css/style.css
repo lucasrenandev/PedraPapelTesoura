@@ -46,7 +46,7 @@ h1 {
 }
 
 .containerGame h3 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 500;
     margin: 15px 0;
 }
@@ -75,12 +75,6 @@ h1 {
     background-color: orangered;
 }
 
-.containerGame h5 {
-    margin: 15px 0;
-    font-size: 1.2em;
-    font-weight: 500;
-}
-
 .containerGame .score {
     width: 100%;
     display: flex;
@@ -100,7 +94,7 @@ h1 {
     color: orangered;
 }
 
-.containerGame .score h6 {
+.containerGame .score h5 {
     font-size: 0.9em;
     font-size: 400;
 }
