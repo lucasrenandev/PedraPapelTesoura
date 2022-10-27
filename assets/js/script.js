@@ -21,11 +21,11 @@ possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener("click"
     userChoiceDisplay.textContent = userChoice
     generateComputerChoice()
     generateGameResult()
-    generateColorsForTheResult()
+    generateColorsResult()
 }))
 
 // Gerando cores para o resultado
-function generateColorsForTheResult() {
+function generateColorsResult() {
     if(computerChoice && resultGame === "Você perdeu !") {
         resultDisplay.style.color = "red"
     }
